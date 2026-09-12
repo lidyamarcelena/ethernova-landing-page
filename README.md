@@ -1,4 +1,4 @@
-# Ethernova - Web 3.0 Blockchain Landing Page
+# ethernova-landing-page
 Ethernova is a landing page website designed to introduce users to blockchain technology and decentralized systems. The website was developed as a final project for the **Human-Computer Interaction (HCI)** course.
 
 ## Purpose
