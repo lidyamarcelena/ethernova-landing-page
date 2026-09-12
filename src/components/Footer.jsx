@@ -1,0 +1,25 @@
+import React from "react";
+
+import logo from "../../images/logo2.png";
+
+const Footer = () => (
+  <div className="w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer">
+    <div className="w-full flex sm:flex-row flex-col justify-between items-center my-4">
+      <div className="flex flex-[0.5] justify-center items-center">
+        <img src={logo} alt="logo" className="w-32" />
+      </div>
+      <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
+        <a href="#Menu" className="text-white text-base text-center mx-2 cursor-pointer">Menu</a>
+        <a href="#About" className="text-white text-base text-center mx-2 cursor-pointer">About</a>
+        <a href="#Others" className="text-white text-base text-center mx-2 cursor-pointer">Others</a>
+      </div>
+    </div>
+
+    <div className="flex justify-center items-center flex-col mt-5">
+      <p className="text-white text-sm text-center font-medium mt-2">Kelompok 8 Teknik Informatika A 2022</p>
+  
+    </div>
+  </div>
+);
+
+export default Footer;
